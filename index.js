@@ -4,6 +4,8 @@ const app = new Koa();
 // response
 app.use(ctx => {
   ctx.body = 'Hello Koa';
+  console.log('hello...')
 });
 
-app.listen(80);
+app.listen(3000);
+console.log('app running at 3000')
